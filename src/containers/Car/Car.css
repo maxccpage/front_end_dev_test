@@ -1,0 +1,113 @@
+/* Font for buttons */
+@font-face {
+  font-family: 'mini_sans';
+  src: url('../../fonts/MINI-Sans/mini_sans-medium-webfont.woff');
+}
+
+@font-face {
+  font-family: 'big_sans';
+  src: url('../../fonts/MINI-Serif/mini_serif-regular-webfont.woff');
+}
+
+.Blue-Mini {
+  display: flex;
+  flex-direction: column;
+}
+
+.Red-Mini {
+  display: flex;
+  flex-direction: column;
+}
+
+.Car-Info {
+  padding: 0rem 1rem;
+}
+
+.Car-Image img {
+  width: 100vw;
+}
+
+.Car-Title {
+  font-family: 'big_sans';
+  font-weight: bold;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  text-align: left;
+  margin: 1rem 0rem;
+}
+
+.Car-Para {
+  font-family: 'big_sans';
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  margin-bottom: 1.5rem;
+}
+
+.Button-Learn {
+  width: 100%;
+  background-color: black;
+  color: white;
+  font-family: 'mini_sans';
+  padding: 0.7rem 0rem;
+  margin: 0.25rem 0rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  outline: none;
+}
+.Button-Build {
+  width: 100%;
+  background-color: black;
+  color: white;
+  font-family: 'mini_sans';
+  padding: 0.7rem 0rem;
+  margin: 0.25rem 0rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  outline: none;
+}
+
+@media screen and (min-width: 425px) {
+  .Car-Title {
+    font-size: 1.7rem;
+  }
+  .Car-Para {
+    font-size: 1.15rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .Blue-Mini {
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .Red-Mini {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .Car-Image img {
+    width: 50vw;
+  }
+  .Car-Info {
+    padding: 0rem 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .Car-Title {
+    padding: 0rem 3rem;
+  }
+  .Car-Para {
+    padding: 0rem 3rem;
+  }
+  .Button-Build {
+    width: 30%;
+    margin: 0.25rem 3rem;
+  }
+  .Button-Learn {
+    width: 30%;
+    margin: 0.25rem 3rem;
+  }
+}

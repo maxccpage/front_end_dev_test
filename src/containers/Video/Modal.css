@@ -1,0 +1,36 @@
+.Arrow-Icon {
+  height: 25px;
+  width: 25px;
+  margin: 0.5rem;
+}
+
+.Arrow-Icon:hover {
+  -webkit-animation: swing 1s ease;
+  animation: swing 1s ease;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+@media screen and (min-width: 768px) {
+  .Arrow-Icon {
+    height: 40px;
+    width: 40px;
+    margin: 0.75rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .Arrow-Icon {
+    height: 60px;
+    width: 60px;
+    margin: 0.75rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .Arrow-Icon {
+    height: 80px;
+    width: 80px;
+    margin: 0.75rem;
+  }
+}

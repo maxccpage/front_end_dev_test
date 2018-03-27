@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'big_sans';
+  src: url('../../fonts/MINI-Serif/mini_serif-regular-webfont.woff');
+}
+
+.Video-Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url('../../assets/videothumbnail.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 3rem 0rem;
+  border: 8px solid white;
+}
+
+.Video-Container h1 {
+  color: white;
+  font-family: 'big_sans';
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.Video-Container h3 {
+  color: white;
+  font-family: 'big_sans';
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 425px) {
+  .Video-Container h1 {
+    font-size: 1.4rem;
+  }
+  .Video-Container h3 {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .Video-Container {
+    height: 335px;
+  }
+  .Video-Container h1 {
+    font-size: 2rem;
+  }
+  .Video-Container h3 {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .Video-Container {
+    height: 460px;
+    border: 20px solid white;
+    padding: 2rem 0rem;
+  }
+  .Video-Container h1 {
+    font-size: 3rem;
+    line-height: 1.3;
+  }
+}
+@media screen and (min-width: 1440px) {
+}
